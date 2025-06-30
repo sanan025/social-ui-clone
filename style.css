@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f3f5;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.menu-container {
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  background-color: #1877f2;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.form-box, .login-container {
+  background: white;
+  width: 320px;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #385898;
+}
+.tagline, .motto {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #606770;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccd0d5;
+  border-radius: 4px;
+}
+form button, .create-account {
+  width: 100%;
+  padding: 10px;
+  background-color: #1877f2;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #1877f2;
+  text-decoration: none;
+}
+.divider {
+  height: 1px;
+  background-color: #ccd0d5;
+  margin: 16px 0;
+}
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
